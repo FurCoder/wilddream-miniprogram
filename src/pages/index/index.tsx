@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { View, Text, Image } from 'remax/wechat';
+import { View, Image } from 'remax/wechat';
 import styles from './index.module.css';
 
-export default () => {
+const Index: React.FC = () => {
   return (
     <View className={styles.app}>
       <View className={styles.header}>
@@ -10,10 +10,10 @@ export default () => {
           src="https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*OGyZSI087zkAAAAAAAAAAABkARQnAQ"
           className={styles.logo}
         />
-        <View className={styles.text}>
-          WildDream Lite Test
-        </View>
+        <View className={styles.text}>WildDream Lite Test</View>
       </View>
     </View>
   );
 };
+
+export default Index;
