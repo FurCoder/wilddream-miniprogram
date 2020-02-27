@@ -1,11 +1,11 @@
 {
-  "name": "remax-template",
+  "name": "whilddream-miniprogram",
   "private": true,
   "version": "1.0.0",
-  "description": "Starter template for Remax apps",
-  "main": "index.js",
+  "description": "wilddream miniprogram",
+  "main": "src/app.ts",
   "keywords": [],
-  "author": "Caihuanyu <eterlf41@gmail.com>",
+  "author": "Zhiyu He <hezhiyu233@foxmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "remax build -t wechat -w",
@@ -14,14 +14,14 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "remax": "^1.9.0"
+    "react": "^16.13.0",
+    "remax": "^1.13.2"
   },
   "devDependencies": {
-    "@types/react": "^16.9.16",
-    "chokidar": "^3.3.0",
-    "remax-cli": "^1.9.0",
-    "rimraf": "^3.0.0",
-    "typescript": "^3.7.3"
+    "@types/react": "^16.9.23",
+    "chokidar": "^3.3.1",
+    "remax-cli": "^1.13.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.2"
   }
 }
