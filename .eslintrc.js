@@ -26,6 +26,8 @@ module.exports = {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
-    semi: ['error', 'always']
+    semi: ['error', 'always'],
+    'react/prop-types': [2, { ignore: ['children'] }],
+    '@typescript-eslint/explicit-function-return-type': 0
   }
 };

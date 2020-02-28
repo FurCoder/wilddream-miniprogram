@@ -1,8 +1,13 @@
-import * as React from 'react';
-import { View, Image } from 'remax/wechat';
+import React from 'react';
+import {
+  View,
+  Image,
+  PageProps
+} from 'remax/wechat';
 import styles from './index.module.css';
 
-const Index: React.FC = () => {
+const Index: React.FC<PageProps> = () => {
+
   return (
     <View className={styles.app}>
       <View className={styles.header}>

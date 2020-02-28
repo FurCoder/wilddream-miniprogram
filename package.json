@@ -8,6 +8,7 @@
   "author": "Zhiyu He <hezhiyu233@foxmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "npm run dev",
     "dev": "remax build -t wechat -w",
     "build": "NODE_ENV=production remax build -t wechat",
     "clean": "rimraf dist",
@@ -15,6 +16,9 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/"
   },
   "dependencies": {
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "mobx-state-tree": "^3.15.0",
     "react": "^16.13.0",
     "remax": "^1.13.2"
   },
